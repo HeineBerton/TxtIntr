@@ -55,7 +55,7 @@ int main(int argc, char** argv)
                 } else {
                     double r = stod(argv[3]);
                     double s = squarecircle(r);
-                    cout << "Площадь круга с радиусом: " << r << " равна " << s << endl;
+                    cout << "Площадь круга равна: " << s << endl;
                     return 0;
                 }
             }
@@ -69,7 +69,7 @@ int main(int argc, char** argv)
                     double y = stod(argv[4]);
                     double z = stod(argv[5]);
                     double s = squaretriangle(x, y, z);
-                    cout << "Площадь треугольника со сторонами: " << x << ", " << y << " и " << z << " равна " << s
+                    cout << "Площадь треугольника равна " << s
                          << endl;
                     return 0;
                 }
